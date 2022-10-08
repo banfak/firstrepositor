@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* 
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Poppins', sans-serif;
+  */
+header {
+  width: 60%;
+  height: 54px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+header ul li {
+  display: inline-block;
+}
+header aside ul {
+  width: 150px;
+}
+header nav ul {
+  width: 500px;
+}
+header ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.active {
+  color: #218371;
+}
+header nav ul li a:hover {
+  color: #218371;
+}
+.fa-facebook-f {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-instagram {
+  color: purple;
+}
+.fa-vine {
+  color: green;
+}
+.fa-youtube {
+  color: red;
+}
+header aside ul li a i {
+  font-size: 20px;
+}
+main .banner {
+  height: 960px;
+  background-image: url("https://static.wixstatic.com/media/84770f_14aa0d6649d7409088c42b75728fa4b3~mv2.jpg/v1/fill/w_1825,h_960,al_c,q_85,usm_0.66_1.00_0.01/84770f_14aa0d6649d7409088c42b75728fa4b3~mv2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .banner div h2 {
+  font-size: 70px;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+}
+main .banner div h2 span {
+  color: #218371;
+}
+main .banner div p {
+  text-align: center;
+  font-size: 29px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+main .about_me {
+  background-color: #00e3c8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .about_me div .left {
+  background-image: url("https://static.wixstatic.com/media/ea71bb_ee68c0ed17a44488ba505a1741edc103~mv2_d_4350_3773_s_4_2.png/v1/fill/w_650,h_568,al_c,q_90,usm_0.66_1.00_0.01/ea71bb_ee68c0ed17a44488ba505a1741edc103~mv2_d_4350_3773_s_4_2.webp");
+  height: 568px;
+  width: 650px;
+  background-repeat: no-repeat;
+}
+main .about_me div {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+main .about_me div .right {
+  width: calc(100% - 650px);
+}
+main .about_me div .right h2 {
+  font-size: 42px;
+  color: black;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+}
+main .about_me div .right p {
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  word-spacing: 5px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+main .about_me div .right button {
+  width: 123px;
+  height: 40px;
+  background-color: black;
+  border: 0px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+main .about_me div .right button:hover {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  transition: 0.9 ease;
+}
+main .buttons {
+  width: 100%;
+  height: 996px;
+  background-image: url("https://static.wixstatic.com/media/ea71bb_6cb7da8f226043de8e04930a971ffa7b~mv2_d_6926_4622_s_4_2.jpg/v1/fill/w_1825,h_996,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_6cb7da8f226043de8e04930a971ffa7b~mv2_d_6926_4622_s_4_2.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+main .buttons div button {
+  width: 810px;
+  height: 134px;
+  border: 10px solid black;
+  margin-top: 150px;
+  font-size: 39px;
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+main .buttons div {
+  width: 830px;
+  height: 100%;
+}
+main .buttons div .first {
+  background-color: #b7f3ec;
+}
+main .buttons div .second {
+  background-color: #00e3c8;
+}
+main .buttons div .third {
+  background-color: #218376;
+}
+main .buttons div button:hover {
+  background-color: white;
+}
